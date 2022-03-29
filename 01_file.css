@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+
+.conteiner{
+
+border-radius: 10px;
+
+max-width: 1150px;
+margin: auto;
+}
+
+.aboutme{
+display: flex;
+}
+
+
+img{
+    box-shadow: 4px 4px 14px rgba(0, 1, 0, 0.866);
+    margin: 25px 45px 15px 75px;
+    
+    }
+
+body{
+    background: greenyellow;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.Hey{
+  
+    color:purple; 
+}
+
+#вот  {
+    width:170px;
+    /* border: 0.2rem solid crimson; */
+    display: inline-block;
+    /* background: #00ff00; */
+    margin-left: 75px;
+    font-size:20px;
+}
+
+.textaboutme  {
+    margin-top: 30px;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color:crimson;
+}
+
+.textaboutme strong {
+font-size: 12px; 
+color:purple;
+}
+
+
+.myContacts {
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color:crimson;
+
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:active{  
+    color: green;
+    /* font-size: 65px; */
+  
+}
+
+a:hover{
+    font-size: 25px; 
+    color: green;
+}
+
+ /* a:visited{  
+     color:red;
+}   */
+
+
+#Хобби {
+    
+   font-size: 14px;
+   color: crimson; 
+   border:3px solid brown;
+   border-radius: 5px;
+     background: rgba(128, 128, 128, 0.5);
+   padding-left: 30px;
+  
+}
+
+.table{
+    font-size: 14px;
+    color: #000; 
+    border-radius: 5px;
+    border:3px solid brown;
+    background: rgba(128, 128, 128, 0.5);
+    /* padding-right: 10px; */
+      text-align:left;
+}
+.table table{
+  /* padding-left: 10px;    */
+ width: 80%;
+}
+
+.table th,.table td{padding-right:20px;}
+
+.table th{
+       padding-bottom: 10px;
+}
+
+
+.table tbody tr:nth-child(1){
+    background: rgba(128, 128, 128, 0.3);
+   
+}
+
+.plans{
+
+border:3px solid brown;
+border-radius: 5px;
+background: rgba(128, 128, 128, 0.5);
+
+}
+.plans ol{
+margin-left: 20px; 
+padding-bottom:5px;
+}
+
+
+.message{
+    background: green;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+
+button{
+
+    height:30px;
+    width: 110px;
+ 
+    margin-bottom: 15px; 
+    margin-left: 35px; 
+
+       background:rgba(11, 0, 14, 0.87);
+
+    font-size: 15px;
+    color: #FFF;
+    font-family: Verdana;
+
+    border-radius: 7px;
+    border: none;
+
+    cursor: pointer;
+
+}
+
+button:hover{
+    opacity: 0.5;
+    color:#ff0000;
+   
+    background: rgba(145, 18, 170, 0.288);
+
+}
+
+
+.message h1{
+  text-align: center ;
+}
+
+.form-message label{
+display: block;
+font-size: 14px;
+color: #000;
+}
+
+.form-row{
+    margin-bottom:10px;
+    /* -----   */
+    display: flex;
+}
+
+.form-row .form-message {
+
+margin-right:20px;
+width: 50%;
+/* display:inline-block; */
+/* width: 47%; */
+
+}
+
+.form-row .form-message:last-child {
+margin-right: 0;
+}
+
+.form-message input, 
+.form-message textarea {
+width: 100%; 
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom: 1px solid #ccc;
+color: #000;
+padding: 15px 0px 10px 0px;
+outline: none;
+font-family: inherit;
+
+}
+
+
+
+
+/* ______________________ */
+
+.navbar{
+    position: fixed;
+
+    top:0;
+    left: 0px;
+    right: 0px;
+
+    z-index:2;
+   
+}
+
+.conteiner{
+    margin-top: 43px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;  
+   
+    padding:0 20px;
+}
+
+.navbar ul li{
+
+    margin-right:10px;
+    width: 20%;
+
+    margin-right: 10px; 
+   padding: 10px;
+}
+
+
+
